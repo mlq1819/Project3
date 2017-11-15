@@ -1,2 +1,3 @@
 Phase 0:  Putty username (mquinn5 or rorourk2)
-Phase 1:  
+Phase 1:  19 29 4 17 0 42
+Phase 2:  
