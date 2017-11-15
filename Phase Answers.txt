@@ -45,3 +45,17 @@ ebx:  6
 ecx:  3
 edx:  5
 
+EoF5:
+eax:  5
+ebx:  7
+ecx:  5
+edx:  8
+
+EoF(N+1):
+eax: N(edx)
+ebx: N(ebx)+1
+ecx: N(edx)
+edx: N(edx+ecx)
+
+
+
