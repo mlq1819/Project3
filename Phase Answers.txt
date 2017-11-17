@@ -3,3 +3,7 @@ Phase 1:  19 29 4 17 0 42
 Phase 2:  294
 Phase 3:  any number n greater than 5, and the (n+1)th element of the fibonacci sequence, such as "6 5"
 Phase 4:  
+
+Phase 4:
+reads number
+checks that it is not 0x1000
