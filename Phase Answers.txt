@@ -3,24 +3,5 @@ Phase 1:  19 29 4 17 0 42
 Phase 2:  294
 Phase 3:  any number n greater than 5, and the (n+1)th element of the fibonacci sequence, such as "6 5"
 Phase 4:  187 or 168
-Phase 5: (0<=all 8 numbers<=7)
+Phase 5:  0 2 3 7 2 2 2 2 or 1 4 7 1 1 1 1 1
 Phase 6:  
-
-
-Loop in Helper:
-checks that everything is valid, then:
-mov    -0xc(%ebp),%eax					Var1 = Zar10
-lea    0x0(,%eax,4),%edx				?
-mov    0x8(%ebp),%eax					Var1 = Zar08
-add    %edx,%eax						Var1 += Var4
-mov    (%eax),%eax						Var1 = *Var1
-mov    $0x1,%edx						Var4 = 1
-mov    %eax,%ecx						Var3 = Var1
-shl    %cl,%edx							for(int i=0; i<cl; i++){ Var4 *= 2; }
-mov    %edx,%eax						Var1 = Var4
-or     %eax,-0x10(%ebp)					Zar16 |= Var1
-addl   $0x1,-0xc(%ebp)					Zar10++
-cmpl   $0x7,-0xc(%ebp)					if(Zar10<7){
-jle    0x56556046 <phase5_helper+32>	
-jmp    0x565560a3 <phase5_helper+125>	
-
