@@ -4,4 +4,4 @@ Phase 2:  294
 Phase 3:  any number n greater than 5, and the (n+1)th element of the fibonacci sequence, such as "6 5"
 Phase 4:  187 or 168
 Phase 5:  0 2 3 7 2 2 2 2 or 1 4 7 1 1 1 1 1
-Phase 6:  
+Phase 6:  printf
